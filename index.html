@@ -1,0 +1,141 @@
+<?php
+include("negocio\clPortugal.php");
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8" name="viewport">	
+
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	<title>Paises</title>	
+	
+    
+
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet"  type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="bootstrap/dist/js/bootstrap.js"></script>
+	
+</head>
+<body class="index">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+   
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="negocio/clPortugal.php">Portugal</a>
+      <a class="nav-item nav-link" href="negocio/clQatar.php">Qatar</a>
+      <a class="nav-item nav-link" href="negocio/clContacto.pnp">Contáctanos</a>
+    </div>
+  </div>
+</nav>
+
+
+<header class="container">
+	<h1>¿A DONDE QUIERES IR?</h1>
+</header>
+
+<div class="container">
+	<section class="main">
+
+	<div class="row">
+
+		<div  class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<a href="negocio/clPortugal.php"><img src="imagenes\portugal.png" alt="portugal.png"></a>
+		</div> 
+			
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+			<a href="negocio/clQatar.php"><img src="imagenes\qatar.jpg" alt="qatar"></a>	
+		</div>
+
+
+
+		<aside class="col-xs-12 col-sm-12 col-md-3 col-lg-3" id="ingreso">
+		<h2>Iniciar sesión</h2>
+
+			<form class="Login" action="">
+				    <label for="uname"><b>Usuario</b></label>
+				    <input type="text" placeholder="Nombre" name="uname" required>
+
+				    <label for="psw"><b>Contraseña</b></label>
+				    <input type="password" placeholder="Contraseña" name="psw" required>
+				        
+				    <button type="submit">Ingresar</button>
+				    <label>
+				      <p>o <a data-toggle="modal" data-target="#exampleModal" style="color: white" href="">Regístrate</a>
+				    </label>	
+
+			</form>
+		</aside>
+		</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Regístrate</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-left: 320px; color: gray">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="height: 500px">
+        <form>
+          <div class="form-group">
+            <label style="color: black" for="recipient-name" class="col-form-label">Nombre:</label>
+            <input type="text" class="form-control" id="recipient-name" required>
+          </div>
+           <div class="form-group">
+            <label style="color: black" for="recipient-name" class="col-form-label">Apellido:</label>
+            <input type="text" class="form-control" id="recipient-name" required>
+          </div>
+           <div class="form-group">
+            <label style="color: black" for="recipient-name" class="col-form-label">Correo:</label>
+            <input type="text" class="form-control" id="recipient-name" required>
+          </div>
+           <div class="form-group">
+            <label style="color: black" for="recipient-name" class="col-form-label">Contraseña:</label>
+            <input type="text" class="form-control" id="recipient-name" required>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer" style="width: 200px">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" style="height: 5%">Cerrar</button>
+        <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+	</section>
+</div>
+
+
+
+<footer>
+	<span class= "quien">
+	Síguenos
+	<a href="https://www.facebook.com/Osmeydy?hc_ref=ARQGdQsQ2XaBdjJdxWyOkTHBA0GkkRd_722gGpw_sZWTNGb3eKS1XfGOPFHx6Ix1UyE"><i class="fab fa-facebook"></i></a>
+	<a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+	</span>
+	
+	
+	<div class="rating">
+		
+	<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+	<p>Califícanos</p>
+	</div>
+
+</footer>
+	
+				
+		
+</body>
+</html>

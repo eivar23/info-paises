@@ -1,0 +1,579 @@
+body{
+
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  margin: 0 auto;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3vh;
+
+}
+.index img{
+  opacity: 0.9;
+}
+
+.index img:hover{
+  opacity: 1;
+
+}
+
+
+.index, .clDistr{
+  
+  background:  url("../imagenes/fondo.jpg"); 
+  background-repeat:repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+
+}
+
+.clPort{
+  background-color: rgba(209, 210, 212,0.8);
+}
+
+#con{
+
+ position: absolute;
+ margin-top: 25em;
+ width: 100%;
+}
+
+
+#con button{
+  margin-left: 20%;
+  margin-bottom: 2%;
+}
+#sobreHistoriaP{
+  background-color: rgba(51,135,161,0.8);
+  width: 55%;
+  margin-left: 25%;
+  margin-top: 3%;
+}
+
+#sobreHistoriaP p{
+ margin-right: 2%;
+ float: right;
+ text-align: right;
+ width: 50%;
+ text-align: justify;
+
+}
+#sobreHistoriaP #slider, #sobreHistoriaP #slider1{
+ margin-left: 1%;
+ padding: 0;
+}
+
+
+
+#sobreHistoriaP button{
+  padding: 0;
+  margin-bottom: 0;
+  width: 60%;
+  background-color: white; 
+  padding: 10px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: black; 
+  border: 2px solid rgb(6,7,9);
+}
+#sobreHistoriaP button:hover {
+    background-color: rgba(6,7,9);
+    color: white;
+}
+
+
+/*________________________________________________________________-menú*/
+
+
+.index .nav-link{
+  margin-left: 60%;
+}
+.nav-link{
+  margin-left: 10%;
+}
+
+
+/*________________________________________formulario registro*/
+
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 3% 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+.container button {
+    background: rgba(51,135,161,0.8);
+    color: white;
+    padding: 7% 10%;
+    margin: 8% 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+
+#ingreso{
+    float: right;
+    left: 3%;
+    background: rgba(6,7,9,0.8);
+
+}
+
+#ingreso form{
+  width: 100%;
+  min-width: 100%;
+}
+
+#ingreso h2{
+  color: white;
+}
+.Login input{
+  height: 1%;
+}
+
+.index p, .index label{
+  color: white;
+}
+
+.index img{
+  margin-top: 25%;
+  margin-bottom: 5%;
+  width: 100%;
+  min-width: 60%;
+
+}
+.index header h1{
+  margin-left: 20%;
+  margin-top: 3%;
+}
+
+
+/*_________________________________________footer*/
+.index footer {
+  position: absolute;
+    margin-bottom: 0;
+    margin-top: 12em;
+    height: 5em;
+    width: 100%;
+    background-color: rgba(6,7,9,0.8);
+    color: white;
+    text-align: center;
+
+}
+
+
+.rating p , .rating span{
+  display: inline-block;
+}
+.quien{
+  padding-right: 10%;
+}
+
+.rating, .quien{
+  display: inline-block;
+}
+.fa-facebook, .fa-twitter{
+  color: white;
+}
+
+.fa-facebook:hover, .fa-twitter:hover{
+  color:rgb(51,135,161);
+}
+/*________________________________________calificacion*/
+.rating > span:hover:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+/*clPortugal___________________________________________________slide*/
+
+
+.cabeceraP{
+
+  background:rgba(153, 204, 255,0.5);
+
+}
+
+#slider, #slider1{
+ padding-top: 5em;
+  width: 30%;
+  max-width:40%;
+  margin-left: 27%;
+}
+
+.mySlides, .mySlides1{
+  width: 200%;
+  
+}
+#slider img, #slider1 img{
+     max-width:70%;
+     min-width:70%;
+}
+
+.caption{
+display: block;
+z-index: -3;
+
+
+
+}
+
+.fa-arrow-circle-left, .fa-arrow-circle-right {
+  font-size: 180%;
+}
+.flecha_derecha, .flecha_derechaQ{
+
+  position: absolute;
+  right: 25%;
+  top: 10em;
+  opacity: 0.7;
+  padding: 1%;
+
+}
+
+.flecha_izquierda, .flecha_izquierdaQ{
+
+  position: absolute;
+  left: 20%;
+  top:10em;
+  opacity: 0.7;
+  padding: 1%;
+
+}
+.flecha_derecha:hover{
+  background-color: black;
+  color: white;
+}
+.flecha_izquierda:hover{
+  background-color: black;
+  color: white;
+}
+.flecha_derecha, .flecha_izquierda, .navegador_imagenes{
+  cursor:pointer
+}
+.puntos_navegacion, .puntos_navegacionQ{
+  width: 100%;
+  min-width: 50%;
+  margin-left:56%;
+  top: 70%;
+}
+.navegador_imagenes:hover:before{
+  position: absolute;
+  content: "\●";
+}
+
+
+/*__________________________________________________________________________--contenido clPortugal*/
+section{
+  text-align: justify;
+}
+section p{
+  color: black;
+}
+
+
+section h1 , section h2{
+  text-align: center;
+}
+
+
+/*____________________________________________________________________pagina clQatar */
+.cabeceraQ{
+
+  background:rgba(204, 153, 255,0.3);
+
+}
+
+.flecha_derechaQ:hover{
+  background-color: rgb(26, 0, 51);
+  color: white;
+}
+.flecha_izquierdaQ:hover{
+  background-color: rgb(26, 0, 51);
+  color: white;
+}
+.flecha_derechaQ, .flecha_izquierdaQ, .navegador_imagenes{
+  cursor:pointer
+}
+
+
+
+
+#geografia h3{
+  margin-left: 3%;
+}
+
+/*________________________________________________________________________________________--mapa*/
+
+#mapaP{
+  position: relative;
+  width: 80%;
+  zoom: 300%;
+  float: center;
+
+}
+
+ #sliderEarth img, #sliderPlants img, #sliderAnimals img{
+     margin-top: 2%;
+     margin-left: 2%;
+     width:50%;
+     float: center;
+}
+
+#saberLugares{
+  margin-top: 3%;
+  background-color: rgba(51,135,161,0.8);
+}
+
+#saberLugares p{
+ padding-bottom: 2%;
+ float: right;
+ text-align: right;
+ width: 40%;
+ text-align: justify;
+
+}
+
+
+#saberLugares button{
+  margin-bottom: 2%;
+  margin-left: 65%;
+  width: 30%;
+  background-color: white; 
+  padding: 2% 5%;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: black; 
+  border: 2px solid rgb(6,7,9);
+}
+
+#saberLugares button:hover {
+    background-color: rgba(6,7,9);
+    color: white;
+}
+
+#galeriaLugares img{
+
+  width: 30%;
+  padding-top: 2%;
+
+}
+
+/*________________________________________________________________________________________Historia portugal*/
+
+.historiaP{
+
+    background:  url("../imagenes/batalha.jpg"); 
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+   
+}
+
+.historiaP{
+  background: rgba(209, 210, 212,0.8);
+  
+}
+
+
+/*_______________________________________________________________geografia portugal*/
+.geografiaP{
+
+    background:  url("../imagenes/geografia/montania.jpg"); 
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.geografiaP .fondoP{
+  background: rgba(209, 210, 212,0.8);
+  padding-bottom: 5em;
+  
+}
+
+
+#juegaMapa{
+  background-color: rgba(51,135,161,0.8);
+}
+
+#juegoRelacionar{
+  margin-top: 3%;
+  background-color: rgba(58,58,60,0.8);
+  color: white;
+}
+
+#juegoRelacionar p{
+ color: white;
+}
+
+#juegaMapa p, #juegoRelacionar p{
+ padding-right: 1%;
+ padding-bottom: 0;
+ float: right;
+ text-align: right;
+ width: 40%;
+ text-align: justify;
+}
+
+#juegaMapa h1, #juegoRelacionar h1{
+  font-size: 5vh;
+}
+
+#juegaMapa img, #juegoRelacionar img{
+  padding-left: 2%;
+  padding-bottom: 2%;
+  padding-right: 0;
+}
+#juegaMapa button, #juegoRelacionar button{
+  margin-bottom: 2%;
+ margin-left: 20%;
+ width: 60%;
+  background-color: white; 
+  padding: 8px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: black; 
+    border: 2px solid rgb(6,7,9);
+}
+
+#juegaMapa button:hover, #juegoRelacionar button:hover{
+    background-color: rgba(6,7,9);
+    color: white;
+}
+
+}
+/*________________________________________________________________________________politica*/
+
+
+
+.politicaP{
+
+    background:  url("../imagenes/geografia/montania.jpg"); 
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.politicaP{
+  background: rgba(209, 210, 212,0.8);
+}
+
+
+.actividadMapaP #p ,.actividadMapaP #p1{
+  display: inline;
+}
+
+/*________________________________________________________________clDistritos*/
+
+.clDistr{
+  width: 100%;
+  background: rgba(209, 210, 212,0.8);
+}
+
+.clDistr .unDistrito{
+  display: none;
+}
+
+
+.gastronomiaP{
+    background:url("../imagenes/gastronomia/pescanova.jpg"); 
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+   
+}
+.gastronomiaP .fondoP{
+  background: rgba(209, 210, 212,0.8);
+  
+}
+
+.educacionP{
+
+    background:  url("../img/Educacion/educacionP.jpg"); 
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+   
+}
+.educacionP .fondoP{
+  background: rgba(209, 210, 212,0.8);
+}
+
+/*_______________________________________________________________________________________actividad relacionar*/
+#ori_1,#ori_2,#ori_3,#ori_4,#ori_5,#ori_6,#ori_7,#ori_8,#ori_9,#ori_10,#ori_11,#ori_12{
+  position:relative;
+  display: table-cell;
+  width:90px;
+  height:90px;
+  margin:auto;
+  background-color:#FADB9A;
+  color:black;
+  border-radius:5px;
+  z-index:20;
+}
+#portugal,#Qatar{
+  position:relative;
+  display: table-cell;
+  width:90px;
+  height:90px;
+  margin:auto;
+  background-color:#FADB9A;
+  color:black;
+  border-radius:5px;
+  z-index:2;
+}
+#blanco,#oro,#oro2,#oro3{
+  position:relative;
+  display: table-cell;
+  width:90px;
+  height:90px;
+  margin:auto;
+  background-color:white;
+  color:black;
+  border-radius:5px;
+  z-index:2;
+}

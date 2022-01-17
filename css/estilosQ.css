@@ -1,0 +1,213 @@
+
+.clQatar{
+  
+  background:  url("../imagenes/Qatar/Fondo.jpg"); 
+  background: rgba(0,0,0,0.5);
+  background-repeat:repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#con button{
+  margin-top: 2%;
+  margin-left: 20%;
+}
+#sobreHistoriaQ{
+  background-color: rgba(46,17,45,0.9);
+  width: 55%;
+  margin-left: 25%;
+  margin-top: 3%;
+}
+
+#sobreHistoriaQ p{
+ margin-right: 2%;
+ float: right;
+ text-align: right;
+ width: 50%;
+ text-align: justify;
+
+}
+#sobreHistoriaQ #slider, #sobreHistoriaQ #slider1{
+ margin-left: 1%;
+ padding: 0;
+}
+
+
+
+#sobreHistoriaQ button{
+  padding: 0;
+  margin-bottom: 0;
+  width: 60%;
+  background-color: white; 
+  padding: 10px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: black; 
+  border: 2px solid rgb(123,91,108);
+}
+#sobreHistoriaQ button:hover {
+    background-color: rgb(123,91,108);
+    color: white;
+}
+
+
+.fondoQ, .culturaQ, .educacionQ{
+  background-color: rgba(6,7,53,0.8);
+}
+/*________________________________________________________________-menú*/
+
+
+.index .nav-link{
+  margin-left: 60%;
+}
+.nav-link{
+  margin-left: 10%;
+}
+
+/*clPortugal___________________________________________________slide*/
+
+#slider, #slider1{
+ padding-top: 5em;
+  width: 30%;
+  max-width:40%;
+  margin-left: 27%;
+}
+
+.mySlides, .mySlides1{
+  width: 200%;
+  
+}
+#slider img, #slider1 img{
+     max-width:70%;
+     min-width:70%;
+}
+
+.caption{
+display: block;
+z-index: -3;
+
+}
+
+
+
+/*__________________________________________________________________________--contenido clPortugal*/
+section{
+  text-align: justify;
+}
+section p, ol li{
+  color: white;
+}
+
+section h1 , section h2{
+  text-align: center;
+  color: white;
+}
+
+
+
+/*________________________________________________________________________________________--mapa*/
+
+#mapaP{
+  position: relative;
+  width: 80%;
+  margin-left: 20%;
+  zoom: 300%;
+  float: center;
+
+}
+
+ #sliderEarth img, #sliderPlants img{
+     margin-top: 2%;
+     margin-left: 2%;
+     width:50%;
+     float: center;
+}
+
+#saberLugares{
+  background-color: rgba(51,135,161,0.8);
+  width: 40%;
+  margin-left: 15%;
+}
+
+#saberLugares p{
+ padding-bottom: 0;
+ float: right;
+ text-align: right;
+ width: 40%;
+ text-align: justify;
+
+}
+
+
+#saberLugares button{
+  margin-bottom: 2%;
+ margin-left: 65%;
+ width: 30%;
+  background-color: white; 
+  padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: black; 
+    border: 2px solid rgb(6,7,9);
+}
+
+#saberLugares button:hover {
+    background-color: rgba(0,6,7);
+    color: white;
+}
+
+#galeriaAnimales img, #galeriaPlantas img, #galeriaLugares img{
+  width: 30%;
+   margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+#galeriaAnimales img:hover ,#galeriaLugares img:hover, #galeriaPlantas img:hover {
+    border: 1px solid #777;
+}
+
+
+
+/*_______________________________________________________________________________________actividad relacionar*/
+#ori_1,#ori_2,#ori_3,#ori_4,#ori_5,#ori_6,#ori_7,#ori_8,#ori_9,#ori_10,#ori_11,#ori_12{
+  position:relative;
+  display: table-cell;
+  width:90px;
+  height:90px;
+  margin:auto;
+  background-color:#FADB9A;
+  color:black;
+  border-radius:5px;
+  z-index:20;
+}
+#portugal,#Qatar{
+  position:relative;
+  display: table-cell;
+  width:90px;
+  height:90px;
+  margin:auto;
+  background-color:#FADB9A;
+  color:black;
+  border-radius:5px;
+  z-index:2;
+}
+#blanco,#oro,#oro2,#oro3{
+  position:relative;
+  display: table-cell;
+  width:90px;
+  height:90px;
+  margin:auto;
+  background-color:white;
+  color:black;
+  border-radius:5px;
+  z-index:2;
+}
